@@ -24,6 +24,11 @@ namespace TouristAppFinal.Model
         private string _roomFacilities;
         private string _season;
         private string _description;
+        private string _image;
+        private string _image1;
+        private string _image2;
+        private string _image3;
+        private string _image4;
 
 
         public string Name
@@ -120,6 +125,36 @@ namespace TouristAppFinal.Model
         {
             get { return _description; }
             set { _description = value; }
+        }
+
+        public string Image
+        {
+            get { return _image; }
+            set { _image = value; }
+        }
+
+        public string Image1
+        {
+            get { return _image1; }
+            set { _image1 = value; }
+        }
+
+        public string Image2
+        {
+            get { return _image2; }
+            set { _image2 = value; }
+        }
+
+        public string Image3
+        {
+            get { return _image3; }
+            set { _image3 = value; }
+        }
+
+        public string Image4
+        {
+            get { return _image4; }
+            set { _image4 = value; }
         }
     }
 }

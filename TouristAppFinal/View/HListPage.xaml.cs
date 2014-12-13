@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using TouristAppFinal.Model;
+using TouristAppFinal.ViewModel;
 
 namespace TouristAppFinal.View
 {
@@ -105,12 +107,50 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+           HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
 
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
+
+        private void Button_Click_5(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
+
+        private void Button_Click_6(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
+        }
+
+        private void Button_Click_7(object sender, RoutedEventArgs e)
+        {
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            this.Frame.Navigate(typeof(HDescriptionPage));
         }
     }
 }

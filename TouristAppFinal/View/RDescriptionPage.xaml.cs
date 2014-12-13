@@ -15,6 +15,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
 // The Basic Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234237
+using TouristAppFinal.Model;
+using TouristAppFinal.ViewModel;
 
 namespace TouristAppFinal.View
 {
@@ -105,6 +107,8 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+         
             this.Frame.Navigate(typeof(RDetaiedPage));
         }
     }
