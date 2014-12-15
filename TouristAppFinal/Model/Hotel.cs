@@ -156,5 +156,37 @@ namespace TouristAppFinal.Model
             get { return _image4; }
             set { _image4 = value; }
         }
+        public Hotel(string Name, string Address, string Web, string Email, string Phone, string Fax,
+            string Capacity, string CityArea, int StarClassification, string ConferenceFacilities,
+            string CreditCards, string GeneralFacilities, string MemberOf, string RoomFacilities, string Season,
+            string Description)
+            //, string Image, string Image1, string Image2, string Image3, string Image4
+        {
+            _name = Name;
+            _address = Address;
+            _web = Web;
+            _email = Email;
+            _phone = Phone;
+            _fax = Fax;
+            _capacity = Capacity;
+            _cityArea = CityArea;
+            _starClassification = StarClassification;
+            _conferenceFacilities = ConferenceFacilities;
+            _creditCards = CreditCards;
+            _generalFacilities = GeneralFacilities;
+            _memberOf = MemberOf;
+            _roomFacilities = RoomFacilities;
+            _season = Season;
+            _description = Description;
+            _image = Image;
+            _image1 = Image1;
+            _image2 = Image2;
+            _image3 = Image3;
+            _image4 = Image4;
+        }
+        public override string ToString()
+        {
+            return string.Format("{0}", _name);
+        }
     }
 }

@@ -55,5 +55,6 @@
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,910,40" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic"/>
         </Grid>
         <Button Content="More Info" HorizontalAlignment="Left" Margin="443,543,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="20" Click="Button_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="155,72,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualHotel.Name, Mode=TwoWay}" VerticalAlignment="Top" Style="{StaticResource HeaderTextBlockStyle}"/>
     </Grid>
 </Page>

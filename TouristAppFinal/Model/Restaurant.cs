@@ -105,5 +105,26 @@ namespace TouristAppFinal.Model
             get { return _image4; }
             set { _image4 = value; }
         }
+
+        public Restaurant(string Name, string Address, string Web, string Email, string Phone, string CityArea,string ConferenceFacilities,
+            string GeneralFacilities,string Description, string Image, string Image1, string Image2, string Image3,string Image4)
+        {
+            _name = Name;
+            _address = Address;
+            _web = Web;
+            _email = Email;
+            _phone = Phone;
+            _cityArea = CityArea;
+            _conferenceFacilities = ConferenceFacilities;
+            _generalFacilities = GeneralFacilities;
+            _description = Description;
+            _image = Image;
+            _image1 = Image1;
+            _image2 = Image2;
+            _image3 = Image3;
+            _image4 = Image4;
+
+        }
     }
+
 }

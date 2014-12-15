@@ -107,7 +107,7 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-           HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
