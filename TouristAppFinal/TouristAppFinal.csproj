@@ -154,6 +154,10 @@
     <Content Include="Assets\Backgrounds\BackImageList.png" />
     <Content Include="Assets\Backgrounds\HotelBackground.jpg" />
     <Content Include="Assets\Backgrounds\HotelBackgroundDescription.jpg" />
+    <Content Include="Assets\Hotel\imagee4.gif" />
+    <Content Include="Assets\Hotel\imagee5.gif" />
+    <Content Include="Assets\Hotel\imagee6.jpg" />
+    <Content Include="Assets\Hotel\imagee7.jpg" />
     <Content Include="Assets\Hotel\resim1.jpg" />
     <Content Include="Assets\Hotel\resim10.jpg" />
     <Content Include="Assets\Hotel\resim11.jpg" />
@@ -190,6 +194,11 @@
     <Content Include="Assets\Hotel\resim7.jpg" />
     <Content Include="Assets\Hotel\resim8.JPG" />
     <Content Include="Assets\Hotel\resim9.jpg" />
+    <Content Include="Assets\Hotel\seven1.jpg" />
+    <Content Include="Assets\Hotel\seven2.jpg" />
+    <Content Include="Assets\Hotel\seven3.jpg" />
+    <Content Include="Assets\Hotel\seven4.jpg" />
+    <Content Include="Assets\Hotel\seven5.jpg" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\Backgrounds\MainBackground.jpg" />
     <Content Include="Assets\Backgrounds\RestaurantBackground.jpg" />
@@ -212,7 +221,7 @@
     <Content Include="Assets\Restaurants\raadhusk1.jpg" />
     <Content Include="Assets\Restaurants\raadhusk2.jpg" />
     <Content Include="Assets\Restaurants\raadhusk3.jpg" />
-    <Content Include="Assets\Restaurants\sodryd 2.jpg" />
+    <Content Include="Assets\Restaurants\sofryd 2.jpg" />
     <Content Include="Assets\Restaurants\sofryd 1.jpg" />
     <Content Include="Assets\Restaurants\sofryd1.jpg" />
     <Content Include="Assets\Restaurants\sofryd2.jpg" />

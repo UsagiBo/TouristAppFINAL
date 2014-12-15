@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>RUMYANA</Machine>
+    <WindowsUser>Rumyana</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>038ba22a-5e4d-40fa-8745-abffbe1aaab6</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\UnitTestLibrary.dll">
+      <PackagePath>UnitTestLibrary.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\UnitTestLibrary.pdb">
+      <PackagePath>UnitTestLibrary.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\TouristAppFinal.pdb">
+      <PackagePath>TouristAppFinal.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.AppContainer.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\References\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.UnitTestFramework.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\TouristAppFinal.exe">
+      <PackagePath>TouristAppFinal.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\MSTestFramework\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Extensions.MSAppContainerAdapter.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.ObjectModel.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.TestExecutor.Core.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\Microsoft.VisualStudio.TestPlatform.Utilities.dll">
+      <PackagePath>Microsoft.VisualStudio.TestPlatform.Utilities.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.exe">
+      <PackagePath>vstest.executionengine.appcontainer.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\TestPlatform\11.0\Redist\CommonConfiguration\neutral\vstest.executionengine.appcontainer.x86.exe">
+      <PackagePath>vstest.executionengine.appcontainer.x86.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\Images\UnitTestLogo.scale-100.png">
+      <PackagePath>Images\UnitTestLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\Images\UnitTestSmallLogo.scale-100.png">
+      <PackagePath>Images\UnitTestSmallLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\Images\UnitTestSplashScreen.scale-100.png">
+      <PackagePath>Images\UnitTestSplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\Images\UnitTestStoreLogo.scale-100.png">
+      <PackagePath>Images\UnitTestStoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\BackImageList.png">
+      <PackagePath>Assets\Backgrounds\BackImageList.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim2.png">
+      <PackagePath>Assets\Hotel\resim2.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Logo.scale-100.png">
+      <PackagePath>Assets\Logo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\SmallLogo.scale-100.png">
+      <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\HotelBackground.jpg">
+      <PackagePath>Assets\Backgrounds\HotelBackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\HotelBackgroundDescription.jpg">
+      <PackagePath>Assets\Backgrounds\HotelBackgroundDescription.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\imagee6.jpg">
+      <PackagePath>Assets\Hotel\imagee6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\imagee7.jpg">
+      <PackagePath>Assets\Hotel\imagee7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim1.jpg">
+      <PackagePath>Assets\Hotel\resim1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim10.jpg">
+      <PackagePath>Assets\Hotel\resim10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim11.jpg">
+      <PackagePath>Assets\Hotel\resim11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim12.jpg">
+      <PackagePath>Assets\Hotel\resim12.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim13.jpg">
+      <PackagePath>Assets\Hotel\resim13.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim14.jpg">
+      <PackagePath>Assets\Hotel\resim14.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim15.jpg">
+      <PackagePath>Assets\Hotel\resim15.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim16.jpg">
+      <PackagePath>Assets\Hotel\resim16.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim17.jpg">
+      <PackagePath>Assets\Hotel\resim17.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim18.jpg">
+      <PackagePath>Assets\Hotel\resim18.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim19.jpg">
+      <PackagePath>Assets\Hotel\resim19.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim20.jpg">
+      <PackagePath>Assets\Hotel\resim20.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim21.jpg">
+      <PackagePath>Assets\Hotel\resim21.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim22.jpg">
+      <PackagePath>Assets\Hotel\resim22.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim23.jpg">
+      <PackagePath>Assets\Hotel\resim23.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim24.jpg">
+      <PackagePath>Assets\Hotel\resim24.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim25.jpg">
+      <PackagePath>Assets\Hotel\resim25.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim26.jpg">
+      <PackagePath>Assets\Hotel\resim26.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim27.jpg">
+      <PackagePath>Assets\Hotel\resim27.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim28.jpg">
+      <PackagePath>Assets\Hotel\resim28.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim29.jpg">
+      <PackagePath>Assets\Hotel\resim29.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim3.jpg">
+      <PackagePath>Assets\Hotel\resim3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim30.jpg">
+      <PackagePath>Assets\Hotel\resim30.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim31.jpg">
+      <PackagePath>Assets\Hotel\resim31.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim32.jpg">
+      <PackagePath>Assets\Hotel\resim32.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim33.jpg">
+      <PackagePath>Assets\Hotel\resim33.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim34.jpg">
+      <PackagePath>Assets\Hotel\resim34.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim35.jpg">
+      <PackagePath>Assets\Hotel\resim35.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim36.jpg">
+      <PackagePath>Assets\Hotel\resim36.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim4.jpg">
+      <PackagePath>Assets\Hotel\resim4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim5.jpg">
+      <PackagePath>Assets\Hotel\resim5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim6.jpg">
+      <PackagePath>Assets\Hotel\resim6.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim7.jpg">
+      <PackagePath>Assets\Hotel\resim7.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim8.JPG">
+      <PackagePath>Assets\Hotel\resim8.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\resim9.jpg">
+      <PackagePath>Assets\Hotel\resim9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\seven1.jpg">
+      <PackagePath>Assets\Hotel\seven1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\seven2.jpg">
+      <PackagePath>Assets\Hotel\seven2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\seven3.jpg">
+      <PackagePath>Assets\Hotel\seven3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\seven4.jpg">
+      <PackagePath>Assets\Hotel\seven4.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\seven5.jpg">
+      <PackagePath>Assets\Hotel\seven5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\MainBackground.jpg">
+      <PackagePath>Assets\Backgrounds\MainBackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\RestaurantBackground.jpg">
+      <PackagePath>Assets\Backgrounds\RestaurantBackground.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Backgrounds\RestaurantBackgroundDescription.jpg">
+      <PackagePath>Assets\Backgrounds\RestaurantBackgroundDescription.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\comwell 1.jpg">
+      <PackagePath>Assets\Restaurants\comwell 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\comwell 2.jpg">
+      <PackagePath>Assets\Restaurants\comwell 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\comwell1.jpg">
+      <PackagePath>Assets\Restaurants\comwell1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\comwell2.jpg">
+      <PackagePath>Assets\Restaurants\comwell2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\comwell3.jpg">
+      <PackagePath>Assets\Restaurants\comwell3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\herthadalen1.jpg">
+      <PackagePath>Assets\Restaurants\herthadalen1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\herthadalen2.jpg">
+      <PackagePath>Assets\Restaurants\herthadalen2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\herthalen 1.jpg">
+      <PackagePath>Assets\Restaurants\herthalen 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\herthalen 2.jpg">
+      <PackagePath>Assets\Restaurants\herthalen 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\perle 1.jpg">
+      <PackagePath>Assets\Restaurants\perle 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\perle 2.jpg">
+      <PackagePath>Assets\Restaurants\perle 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\perle1.jpg">
+      <PackagePath>Assets\Restaurants\perle1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\perle2.jpg">
+      <PackagePath>Assets\Restaurants\perle2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\raadhusk 1.jpg">
+      <PackagePath>Assets\Restaurants\raadhusk 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\raadhusk 2.jpg">
+      <PackagePath>Assets\Restaurants\raadhusk 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\raadhusk1.jpg">
+      <PackagePath>Assets\Restaurants\raadhusk1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\raadhusk2.jpg">
+      <PackagePath>Assets\Restaurants\raadhusk2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\raadhusk3.jpg">
+      <PackagePath>Assets\Restaurants\raadhusk3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\sofryd 2.jpg">
+      <PackagePath>Assets\Restaurants\sofryd 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\sofryd 1.jpg">
+      <PackagePath>Assets\Restaurants\sofryd 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\sofryd1.jpg">
+      <PackagePath>Assets\Restaurants\sofryd1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\sofryd2.jpg">
+      <PackagePath>Assets\Restaurants\sofryd2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\sofryd3.JPG">
+      <PackagePath>Assets\Restaurants\sofryd3.JPG</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\svogerslev 1.jpg">
+      <PackagePath>Assets\Restaurants\svogerslev 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\svogerslev 2.jpg">
+      <PackagePath>Assets\Restaurants\svogerslev 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\svogerslev1.jpg">
+      <PackagePath>Assets\Restaurants\svogerslev1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\svogerslev2.jpg">
+      <PackagePath>Assets\Restaurants\svogerslev2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\svogerslev3.jpg">
+      <PackagePath>Assets\Restaurants\svogerslev3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\upstairs 1.jpg">
+      <PackagePath>Assets\Restaurants\upstairs 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\upstairs 2.jpg">
+      <PackagePath>Assets\Restaurants\upstairs 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\upstairs1.jpg">
+      <PackagePath>Assets\Restaurants\upstairs1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\upstairs2.jpg">
+      <PackagePath>Assets\Restaurants\upstairs2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\upstairs3.jpg">
+      <PackagePath>Assets\Restaurants\upstairs3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\vigen 1.jpg">
+      <PackagePath>Assets\Restaurants\vigen 1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\vigen 2.jpg">
+      <PackagePath>Assets\Restaurants\vigen 2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\vigen1.jpg">
+      <PackagePath>Assets\Restaurants\vigen1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\vigen2.jpg">
+      <PackagePath>Assets\Restaurants\vigen2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Restaurants\vigen3.jpg">
+      <PackagePath>Assets\Restaurants\vigen3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\imagee4.gif">
+      <PackagePath>Assets\Hotel\imagee4.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\Assets\Hotel\imagee5.gif">
+      <PackagePath>Assets\Hotel\imagee5.gif</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\MainPage.xbf">
+      <PackagePath>View\MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\HDescriptionPage.xbf">
+      <PackagePath>View\HDescriptionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\HDetailedPage.xbf">
+      <PackagePath>View\HDetailedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\HListPage.xbf">
+      <PackagePath>View\HListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\RDescriptionPage.xbf">
+      <PackagePath>View\RDescriptionPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\RDetaiedPage.xbf">
+      <PackagePath>View\RDetaiedPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\View\RListPage.xbf">
+      <PackagePath>View\RListPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\bin\Debug\TouristAppFinal.xr.xml">
+      <PackagePath>TouristAppFinal.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

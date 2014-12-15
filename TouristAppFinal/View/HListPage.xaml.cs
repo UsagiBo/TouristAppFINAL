@@ -25,7 +25,7 @@ namespace TouristAppFinal.View
     /// </summary>
     public sealed partial class HListPage : Page
     {
-
+        HotelVM viewmodel = new HotelVM();
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -50,6 +50,7 @@ namespace TouristAppFinal.View
         public HListPage()
         {
             this.InitializeComponent();
+            this.DataContext = viewmodel;
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
@@ -107,49 +108,49 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel= viewmodel.h1;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h2;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h3;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h4;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h5;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h6;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h7;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h8;
             this.Frame.Navigate(typeof(HDescriptionPage));
         }
     }

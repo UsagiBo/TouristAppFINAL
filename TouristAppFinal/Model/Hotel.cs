@@ -159,8 +159,8 @@ namespace TouristAppFinal.Model
         public Hotel(string Name, string Address, string Web, string Email, string Phone, string Fax,
             string Capacity, string CityArea, int StarClassification, string ConferenceFacilities,
             string CreditCards, string GeneralFacilities, string MemberOf, string RoomFacilities, string Season,
-            string Description)
-            //, string Image, string Image1, string Image2, string Image3, string Image4
+            string Description, string Image, string Image1, string Image2, string Image3, string Image4)
+            
         {
             _name = Name;
             _address = Address;

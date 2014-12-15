@@ -1,0 +1,2 @@
+C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\TouristAppFinal\TouristAppFinal.csproj;neutral
+C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\UnitTestLibrary.csproj;neutral

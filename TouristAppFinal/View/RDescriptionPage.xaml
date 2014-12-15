@@ -21,7 +21,7 @@
         * Row 0 contains the back button and page title
         * Row 1 contains the rest of the page layout
     -->
-    <Grid>
+    <Grid HorizontalAlignment="Left" Width="1366">
         <Grid.Background>
             <ImageBrush Stretch="Fill" ImageSource="ms-appx:///Assets/Backgrounds/RestaurantBackgroundDescription.jpg"/>
         </Grid.Background>
@@ -54,6 +54,22 @@
             <TextBlock x:Name="pageTitle" Text="Back To List" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,924,40" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic"/>
         </Grid>
-        <Button Content="More Info" HorizontalAlignment="Left" Margin="439,539,0,0" Grid.Row="1" VerticalAlignment="Top" FontSize="20" Click="Button_Click" RenderTransformOrigin="0.258,0.441"/>
+        <Button Content="i" HorizontalAlignment="Left" Margin="47,508,0,0" Grid.Row="1" 
+                BorderThickness ="0" VerticalAlignment="Top" FontSize="78" Click="Button_Click" RenderTransformOrigin="0.258,0.441" Height="91" Width="99" FontWeight="Bold" Background="Transparent" Foreground="#FFED6B06" FontFamily="Lucida Calligraphy" BorderBrush="Gray"/>
+        <TextBlock x:Name="pageTitle_Copy" Style="{StaticResource HeaderTextBlockStyle}" 
+        	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="109,0,830,533" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic" SelectionChanged="pageTitle_Copy_SelectionChanged" Grid.Row="1" Text="{Binding ActualRestaurant.Name, Mode=TwoWay}" TextAlignment="Center"/>
+        <Image HorizontalAlignment="Left" Height="276" Margin="62,194,0,0" Grid.Row="1" VerticalAlignment="Top" Width="499" Source="{Binding ActualRestaurant.Image, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="616,55,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualRestaurant.Description, Mode=TwoWay}" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="25" Height="544" Width="400" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1148,48,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30" FontWeight="Bold"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,118,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" FontWeight="Bold" TextAlignment="Center" Width="260"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,290,0,0" Grid.Row="1" TextWrapping="Wrap"  VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" FontWeight="Bold" Width="260" TextAlignment="Center" Text="Web:"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,380,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Mail:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" FontWeight="Bold" Width="260" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,483,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Phone:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" RenderTransformOrigin="0.523,2.626" FontWeight="Bold" Width="260" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="252,506,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Opening Hours:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" Width="260" FontWeight="Bold" TextAlignment="Center"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,524,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualRestaurant.Phone, Mode=TwoWay}" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,416,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualRestaurant.Email, Mode=TwoWay}" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1061,339,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualRestaurant.Web, Mode=TwoWay}" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30"/>
+        <TextBlock HorizontalAlignment="Left" Margin="1055,167,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30" Text="{Binding ActualRestaurant.Address, Mode=TwoWay}"/>
+        <TextBlock HorizontalAlignment="Left" Margin="206,537,0,0" Grid.Row="1" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" Width="355" Text="{Binding ActualRestaurant.OpeningHours, Mode=TwoWay}" Height="69" TextAlignment="Center"/>
     </Grid>
 </Page>

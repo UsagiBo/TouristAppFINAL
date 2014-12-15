@@ -22,6 +22,7 @@ namespace TouristAppFinal.Model
         private string _image2;
         private string _image3;
         private string _image4;
+        private string _openingHours;
 
         public string Name
         {
@@ -106,8 +107,14 @@ namespace TouristAppFinal.Model
             set { _image4 = value; }
         }
 
+        public string OpeningHours
+        {
+            get { return _openingHours; }
+            set { _openingHours = value; }
+        }
+
         public Restaurant(string Name, string Address, string Web, string Email, string Phone, string CityArea,string ConferenceFacilities,
-            string GeneralFacilities,string Description, string Image, string Image1, string Image2, string Image3,string Image4)
+            string GeneralFacilities, string OpeningHours, string Description, string Image, string Image1, string Image2, string Image3, string Image4)
         {
             _name = Name;
             _address = Address;
@@ -118,6 +125,7 @@ namespace TouristAppFinal.Model
             _conferenceFacilities = ConferenceFacilities;
             _generalFacilities = GeneralFacilities;
             _description = Description;
+            _openingHours = OpeningHours;
             _image = Image;
             _image1 = Image1;
             _image2 = Image2;

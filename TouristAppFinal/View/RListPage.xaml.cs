@@ -26,6 +26,8 @@ namespace TouristAppFinal.View
     public sealed partial class RListPage : Page
     {
 
+        RestaurantVM viewmodel = new RestaurantVM();
+
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
 
@@ -50,6 +52,7 @@ namespace TouristAppFinal.View
         public RListPage()
         {
             this.InitializeComponent();
+            this.DataContext = viewmodel;
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
@@ -107,49 +110,50 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
-            this.Frame.Navigate(typeof(RDescriptionPage));
+
+            RestaurantVM.ActualRestaurant = viewmodel.r1;
+                this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_1(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+           RestaurantVM.ActualRestaurant = viewmodel.r2;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            RestaurantVM.ActualRestaurant = viewmodel.r3;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_3(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            RestaurantVM.ActualRestaurant = viewmodel.r4;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_4(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            RestaurantVM.ActualRestaurant = viewmodel.r5;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_5(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+           RestaurantVM.ActualRestaurant = viewmodel.r6;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_6(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            RestaurantVM.ActualRestaurant = viewmodel.r7;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 
         private void Button_Click_7(object sender, RoutedEventArgs e)
         {
-            RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
+            RestaurantVM.ActualRestaurant = viewmodel.r8;
             this.Frame.Navigate(typeof(RDescriptionPage));
         }
 

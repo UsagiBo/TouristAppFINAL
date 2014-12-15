@@ -25,6 +25,7 @@ namespace TouristAppFinal.View
     /// </summary>
     public sealed partial class RDescriptionPage : Page
     {
+        
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -49,6 +50,7 @@ namespace TouristAppFinal.View
 
         public RDescriptionPage()
         {
+            DataContext = RestaurantVM.ActualRestaurant;
             this.InitializeComponent();
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
@@ -110,6 +112,11 @@ namespace TouristAppFinal.View
             RestaurantVM.ActualRestaurant = (Restaurant)((Button)sender).Content;
          
             this.Frame.Navigate(typeof(RDetaiedPage));
+        }
+
+        private void pageTitle_Copy_SelectionChanged(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

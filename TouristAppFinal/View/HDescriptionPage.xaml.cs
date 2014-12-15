@@ -25,6 +25,7 @@ namespace TouristAppFinal.View
     /// </summary>
     public sealed partial class HDescriptionPage : Page
     {
+        HotelVM viewmodel = new HotelVM();
 
         private NavigationHelper navigationHelper;
         private ObservableDictionary defaultViewModel = new ObservableDictionary();
@@ -50,6 +51,7 @@ namespace TouristAppFinal.View
         public HDescriptionPage()
         {
             this.InitializeComponent();
+            DataContext = viewmodel;
             this.navigationHelper = new NavigationHelper(this);
             this.navigationHelper.LoadState += navigationHelper_LoadState;
             this.navigationHelper.SaveState += navigationHelper_SaveState;
@@ -107,7 +109,7 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = (Hotel)((Button)sender).Content;
+            HotelVM.ActualHotel = viewmodel.h1;
          
             this.Frame.Navigate(typeof(HDetailedPage));
         }
