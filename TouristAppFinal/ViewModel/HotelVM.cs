@@ -100,8 +100,6 @@ namespace TouristAppFinal.ViewModel
                 "number of beds (52), number of double rooms (26),total number of rooms (26)","Roskilde Sealand, Møn, Lolland-Falster",3,"meeting facilities","American Express, Dankort, Diners Club, Eurocard, JCB, MasterCard, Visa",
                 "internet, parking, restaurant", "Dansk Kroferie, Horesta, Small Danish Hotels", "TV", "All",
                 "Hotel Soefryd is situated 38 km from Copenhagen and 12 km from Roskilde direct access to Roskilde fjord and the old fishing hamlet in Jyllinge. The garden overlooking the inlet. Cosy Restaurant,party- rooms, conference rooms. New rooms with a fjord view, bath, toilet. and radio. Hot dishes available from 11 am till 10 pm.","../Assets/Hotel/resim26.jpg","../Assets/Hotel/resim27.jpg","../Assets/Hotel/resim28.jpg","../Assets/Hotel/resim29.jpg","../Assets/Hotel/resim30.jpg");
-          
-            
             _h5 = new Hotel("VIBY KRO", "Skolevej 1 4130 Viby Sjælland","www.vibykro.dk","vibykro@post9.tele.dk", "+45 46193021", "+45 46194921", "",
                  "Lejre, Ramsø, RoskildeSealand, Møn, Lolland-Falster",3,
                 "meeting facilities", "Dankort, Diners Club, Electron, Eurocard, JCB, MasterCard, Visa",
@@ -125,7 +123,8 @@ namespace TouristAppFinal.ViewModel
                 "Dankort, Diners Club, Eurocard, Maestro, MasterCard, Visa",
                 "dogs allowed, internet, parking, parking for motor coaches, restaurant", "Larsen Hotel og Kroferie",
                 "TV", "All",
-                "The Wittrup Motel is built as a traditional American one-storey motel with parking in front of the rooms. The motel is situated centrally between Roskilde and Copenhagen and close to green areas and leisure activities. Direct access to green areas and small river, 2 km to forest, 1 km to outdoor swiming facilities. Easy access to sports facilities. The motel has a restaurant and meeting facilities.The motel also offers Bed & Breakfast with 7 new rooms in separate building close to a small village and green areas. All rooms are non-smoking rooms with TV, access to bathroom and big garden with 2 terraces. Breakfast is included in the price and served in the restaurant at the motel. Bookings and pick-up of keys at the motel. Be aware that the reception closes at 11 pm, sundag at 9.30 pm.", "../Assets/Hotel/resim6.jpg", "../Assets/Hotel/resim6.jpg", "../Assets/Hotel/resim6.jpg", "../Assets/Hotel/resim6.jpg", "../Assets/Hotel/resim6.jpg");
+                "The Wittrup Motel is built as a traditional American one-storey motel with parking in front of the rooms. The motel is situated centrally between Roskilde and Copenhagen and close to green areas and leisure activities. Direct access to green areas and small river, 2 km to forest, 1 km to outdoor swiming facilities. Easy access to sports facilities. The motel has a restaurant and meeting facilities.The motel also offers Bed & Breakfast with 7 new rooms in separate building close to a small village and green areas. All rooms are non-smoking rooms with TV, access to bathroom and big garden with 2 terraces. Breakfast is included in the price and served in the restaurant at the motel. Bookings and pick-up of keys at the motel. Be aware that the reception closes at 11 pm, sundag at 9.30 pm.",
+                "../Assets/Hotel/h1.jpg", "../Assets/Hotel/h2.jpg", "../Assets/Hotel/h3.jpg", "../Assets/Hotel/h4.jpg", "../Assets/Hotel/h5.jpg");
             
 #endregion
             _weather = new Weather();

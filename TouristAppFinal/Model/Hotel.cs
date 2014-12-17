@@ -16,7 +16,7 @@ namespace TouristAppFinal.Model
         private string _fax;
         private string _capacity;
         private string _cityArea;
-        private int _starClassification;
+        private double _starClassification;
         private string _conferenceFacilities;
         private string _creditCards;
         private string _generalFacilities;
@@ -79,7 +79,7 @@ namespace TouristAppFinal.Model
             set { _cityArea = value; }
         }
 
-        public int StarClassification
+        public double StarClassification
         {
             get { return _starClassification; }
             set { _starClassification = value; }
@@ -157,7 +157,7 @@ namespace TouristAppFinal.Model
             set { _image4 = value; }
         }
         public Hotel(string Name, string Address, string Web, string Email, string Phone, string Fax,
-            string Capacity, string CityArea, int StarClassification, string ConferenceFacilities,
+            string Capacity, string CityArea, double StarClassification, string ConferenceFacilities,
             string CreditCards, string GeneralFacilities, string MemberOf, string RoomFacilities, string Season,
             string Description, string Image, string Image1, string Image2, string Image3, string Image4)
             

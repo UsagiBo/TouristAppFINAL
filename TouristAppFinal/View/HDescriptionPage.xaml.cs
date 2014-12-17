@@ -109,7 +109,7 @@ namespace TouristAppFinal.View
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            HotelVM.ActualHotel = viewmodel.h1;
+           
          
             this.Frame.Navigate(typeof(HDetailedPage));
         }

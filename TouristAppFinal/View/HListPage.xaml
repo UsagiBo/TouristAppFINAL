@@ -65,13 +65,45 @@
 
 
         </Grid>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="95,78,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="416,78,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_1"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="744,78,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_2"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1061,78,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_3"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="95,364,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_4"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="416,364,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_5"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="744,364,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_6"/>
-        <Button Content="Button" HorizontalAlignment="Left" Margin="1061,364,0,0" Grid.Row="1" VerticalAlignment="Top" Height="142" Width="173" Click="Button_Click_7"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="74,71,0,0" Grid.Row="1" VerticalAlignment="Top" Height="170" Width="230" Click="Button_Click" BorderThickness="0">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h1.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="394,71,0,0" Grid.Row="1" VerticalAlignment="Top" Height="170" Width="230" Click="Button_Click_1">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h2.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="713,71,0,0" Grid.Row="1" VerticalAlignment="Top" Height="170" Width="228" Click="Button_Click_2">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h3.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="1034,71,0,0" Grid.Row="1" VerticalAlignment="Top" Height="170" Width="230" Click="Button_Click_3">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h4.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="74,358,0,0" Grid.Row="1" VerticalAlignment="Top" Height="167" Width="230" Click="Button_Click_4">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h5.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="394,358,0,0" Grid.Row="1" VerticalAlignment="Top" Height="167" Width="230" Click="Button_Click_5">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h6.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="713,358,0,0" Grid.Row="1" VerticalAlignment="Top" Height="167" Width="228" Click="Button_Click_6">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h7.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
+        <Button Content="" HorizontalAlignment="Left" Margin="1034,358,0,0" Grid.Row="1" VerticalAlignment="Top" Height="167" Width="230" Click="Button_Click_7">
+            <Button.Background>
+                <ImageBrush Stretch="Fill" ImageSource="{Binding h8.Image, Mode=TwoWay}"/>
+            </Button.Background>
+        </Button>
     </Grid>
 </Page>

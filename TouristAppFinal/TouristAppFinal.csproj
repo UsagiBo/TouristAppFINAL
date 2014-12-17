@@ -103,6 +103,9 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <SDKReference Include="Callisto, Version=1.4.0">
+      <Name>Callisto</Name>
+    </SDKReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
@@ -154,6 +157,11 @@
     <Content Include="Assets\Backgrounds\BackImageList.png" />
     <Content Include="Assets\Backgrounds\HotelBackground.jpg" />
     <Content Include="Assets\Backgrounds\HotelBackgroundDescription.jpg" />
+    <Content Include="Assets\Hotel\h1.jpg" />
+    <Content Include="Assets\Hotel\h2.jpg" />
+    <Content Include="Assets\Hotel\h3.jpeg" />
+    <Content Include="Assets\Hotel\h4.jpg" />
+    <Content Include="Assets\Hotel\h5.jpg" />
     <Content Include="Assets\Hotel\imagee4.gif" />
     <Content Include="Assets\Hotel\imagee5.gif" />
     <Content Include="Assets\Hotel\imagee6.jpg" />

@@ -49,6 +49,8 @@ C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestL
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\qualifiers.txt.intermediate
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\MultipleQualifiersPerDimensionFound.txt
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\ProjectArchitectures.txt
+C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\Callisto.dll
+C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\bin\Debug\Callisto.xml
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\layout.resfiles.intermediate
 C:\Users\Rumyana\Documents\Visual Studio 2013\Projects\TouristAppFinal\UnitTestLibrary\obj\Debug\Microsoft.VisualStudio.TestPlatform.UnitTestFramework\Resources.resfiles

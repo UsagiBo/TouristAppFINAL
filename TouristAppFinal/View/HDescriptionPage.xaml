@@ -6,6 +6,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ViewModel="using:TouristAppFinal.ViewModel"
+    xmlns:Controls="using:Callisto.Controls"
     x:Name="pageRoot"
     x:Class="TouristAppFinal.View.HDescriptionPage"
     DataContext="{Binding DefaultViewModel, RelativeSource={RelativeSource Mode=Self}}"
@@ -54,13 +55,12 @@
             <TextBlock x:Name="pageTitle" Text="Back To List" Style="{StaticResource HeaderTextBlockStyle}" Grid.Column="1" 
 				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="0,0,910,40" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic"/>
             <TextBlock x:Name="hotelTitle_Copy" Text="{Binding ActualHotel.Name, Mode=TwoWay}" Style="{StaticResource HeaderTextBlockStyle}" 
-            	IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="80,0,816,-111" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2" Height="46" TextAlignment="Center"/>
+				IsHitTestVisible="false" TextWrapping="NoWrap" VerticalAlignment="Bottom" Margin="80,0,816,-111" Foreground="#FFED6B06" FontWeight="Bold" FontStyle="Italic" Grid.ColumnSpan="2" Height="46" TextAlignment="Center"/>
         </Grid>
         <Image HorizontalAlignment="Center" Height="277" Margin="59,199,810,152" Grid.Row="1" VerticalAlignment="Center" Width="497" Source="{Binding ActualHotel.Image, Mode=TwoWay}" Stretch="UniformToFill"/>
         <Button Content="i" HorizontalAlignment="Left" Margin="47,508,0,0" Grid.Row="1" 
-        	BorderThickness ="0" VerticalAlignment="Top" FontSize="78" Click="Button_Click" RenderTransformOrigin="0.258,0.441" Height="91" Width="99" FontWeight="Bold" Background="Transparent" Foreground="#FFED6B06" FontFamily="Lucida Calligraphy" BorderBrush="Gray"/>
-
-        <TextBlock HorizontalAlignment="Left" Margin="597,48,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualHotel.Description, Mode=TwoWay}" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="25" Height="517" Width="429" TextAlignment="Center"/>
+			BorderThickness ="0" VerticalAlignment="Top" FontSize="78" Click="Button_Click" RenderTransformOrigin="0.258,0.441" Height="91" Width="99" FontWeight="Bold" Background="Transparent" Foreground="#FFED6B06" FontFamily="Lucida Calligraphy" BorderBrush="Gray"/>
+        <TextBlock HorizontalAlignment="Left" Height="544" Margin="600,44,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualHotel.Description, Mode=TwoWay}" VerticalAlignment="Top" Width="426" Foreground="#FFED6B06" FontSize="26"/>
         <TextBlock HorizontalAlignment="Left" Margin="1148,48,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Contact:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="30" FontWeight="Bold"/>
         <TextBlock HorizontalAlignment="Left" Margin="1061,118,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Address:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" FontWeight="Bold" TextAlignment="Center" Width="260"/>
         <TextBlock HorizontalAlignment="Left" Margin="1061,290,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Web:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" FontWeight="Bold" Width="260" TextAlignment="Center"/>
@@ -73,5 +73,15 @@
         <TextBlock HorizontalAlignment="Left" Margin="1061,515,0,0" Grid.Row="1" TextWrapping="Wrap" Text="Fax:" VerticalAlignment="Top" Foreground="#FFED6B06" FontSize="26" RenderTransformOrigin="0.523,2.626" FontWeight="Bold" Width="260" TextAlignment="Center"/>
         <TextBlock HorizontalAlignment="Left" Margin="1055,542,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualHotel.Fax, Mode=TwoWay}" VerticalAlignment="Top" FontSize="26" Foreground="#FFED6B06"/>
         <TextBlock HorizontalAlignment="Left" Margin="1055,475,0,0" Grid.Row="1" TextWrapping="Wrap" Text="{Binding ActualHotel.Phone, Mode=TwoWay}" VerticalAlignment="Top" FontSize="26" Foreground="#FFED6B06"/>
+        <Controls:Rating
+    Value="{Binding ActualHotel.StarClassification, Mode=TwoWay}" ItemCount="5"
+    Background="Transparent" Foreground="Gold" Grid.Row="1" Margin="71,172,530,122" PointerOverFill="Gold" ReadOnlyFill="Gold" IsTapEnabled="False" IsHitTestVisible="False" RenderTransformOrigin="0,0" ScrollViewer.VerticalScrollBarVisibility="Disabled" >
+            <Controls:Rating.RenderTransform>
+                <CompositeTransform ScaleX="2" ScaleY="2"/>
+            </Controls:Rating.RenderTransform>
+
+        </Controls:Rating>
+
+       
     </Grid>
 </Page>
